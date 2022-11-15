@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="kaspergff.countbutton.CountButton"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>Count Button</name>
+    <description>Button that counts the amount of times it has been clicked</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+            <property key="startCount" type="integer" required="true" defaultValue='0'>
+                <caption>Default value</caption>
+                <description>Start count</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>

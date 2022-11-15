@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="kaspergff.tailwindstyling.TailwindStyling"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>Tailwind Styling</name>
+    <description>Mendix Widget styled with TailwindCSS</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+            <property key="input" type="string" required="false" defaultValue=''>
+                <caption>Default value</caption>
+                <description>Sample text input</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
